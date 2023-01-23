@@ -1,0 +1,6 @@
+project: ez-vcard
+target: fuzz-vcard
+
+cmds:
+    - cmd: /jazzer --cp=/project/fuzz/src/fuzz-vcard.jar:/project/fuzz/src/libs.jar --target_class=VCardFuzz
+      libfuzzer: true
