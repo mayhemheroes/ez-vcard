@@ -1,0 +1,6 @@
+project: ez-vcard
+target: fuzz-vcard
+cmds:
+  - cmd: /mayhem/fuzz-vcard
+    libfuzzer: true
+    timeout: 50
